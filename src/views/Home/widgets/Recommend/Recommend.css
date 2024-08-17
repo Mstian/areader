@@ -1,0 +1,170 @@
+.re_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+}
+
+.re_left {
+  flex: 1;
+ 
+}
+.re_left_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.re_right {
+  width: 282px;
+  /* height: 392px; */
+}
+.re_card_wrap {
+  display: flex;
+  cursor: pointer;
+}
+.re_firstCard {
+  position: relative;
+  width: 282px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.re_cardList {
+  display: flex;
+  align-items: flex-start;
+  width: 624px;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  justify-content: center;
+}
+.re_fst_card_img_div {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  border-radius: 8px;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.6);
+}
+.re_fst_card_img {
+ width: 100%;
+ height: 100%;
+ transition: transform 0.3s ease-in-out;
+ transform: scale(1);
+}
+.re_fst_card_img:hover {
+  transform: scale(1.1);
+}
+
+
+.re_card_book_title {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  color: #333;
+  text-align: center;
+  z-index: 2;
+  margin: 10px 0;
+}
+.re_card_book_title:hover {
+  color: #ff0000;
+}
+.re_card_book_author {
+  color: #666;
+  font-size: 16px;
+  margin: 5px 0;
+  position: relative;
+  z-index: 2;
+}
+.re_card_book_desc {
+  font-size: 14px;
+  color: #999;
+  margin: 10px 0;
+  position: relative;
+  z-index: 2;
+}
+.re_card_abs_bg {
+  position: absolute;
+  border-radius: 8px;
+  width: 282px;
+  height: 392px;
+  background:linear-gradient(180deg,#e3e9ed,#fff 58%);
+  z-index: 1;
+  top: 58px;
+}
+.re_card_item {
+  display: flex;
+  width: 272px;
+  height: 129px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.re_card_item_left {
+  width: 96px;
+  height: 128px;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.8);
+}
+.re_card_item_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.re_card_item_r_title {
+  color: #666;
+  font-size: 16px;
+}
+.re_card_item_r_desc {
+  color: #999;
+  font-size: 14px;
+}
+.re_card_item_r_author {
+ color: #666;
+ font-size: 12px;
+}
+
+.re_right_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.re_r_content_item {
+  display: flex;
+}
+.re_r_c_itm_index {
+  margin-right: 5px;
+}
+.re_r_content_list {
+  border-radius: 8px;
+  padding: 15px 20px;
+  background: url('https://revo.zongheng.com/www/2024/images/9f59488.png') no-repeat;
+}
+.re_r_content_item {
+  margin-bottom: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.re_r_con_itm_title {color: #333;font-size: 16px; font-weight: 500;}
+.re_r_con_itm_author {color: #999; font-size: 12px;margin: 10px 0;}
+.re_r_con_piao {color: #999; font-size: 12px;}
+.re_r_con_itm_img_div {
+  position: absolute;
+  right: 0;
+  width: 51px;
+  height: 68px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.re_r_con_itm_img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+.re_r_con_itm_img:hover {
+  transform: scale(1.1);
+}

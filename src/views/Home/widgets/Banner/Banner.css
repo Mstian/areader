@@ -1,0 +1,18 @@
+.banner_wrap {
+  width: 100%;
+  /* width: 1200px; */
+  /* margin: 0 auto; */
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 340px;
+  z-index: 1;
+}
+.banner_img {
+  height: 340px;
+  width: 100%;
+}
+.slick-arrow {
+  z-index: 200;
+}
